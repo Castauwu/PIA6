@@ -1,0 +1,32 @@
+body{
+	background-image: url(../img/azul.jpg);
+	background-size: cover;
+}
+h3{
+	font-size: 25px;
+	text-align: center;
+}
+footer{
+	background: rgba();
+}
+.img1 {
+    position: absolute;
+    left: 20%;
+    top: 11%;
+    height: 150px;
+    width: 150px;
+}
+.img2 {
+    position: absolute;
+    left: 40%;
+    top: 11%;
+    height: 150px;
+    width: 150px;
+}
+.img3 {
+    position: absolute;
+    left: 60%;
+    top: 11%;
+    height: 150px;
+    width: 150px;
+}

@@ -1,0 +1,67 @@
+body{
+	background-image: url(../img/medelli.jpg);
+	background-size: cover;
+}
+h3{
+	font-size: 25px;
+	text-align: center;
+}
+footer{
+	background: rgba();
+}
+.img1 {
+    position: absolute;
+    left: 20%;
+    top: 13%;
+    height: 175px; 
+    width: 270px;
+}
+.img2{
+    position: absolute;
+    left: 20%;
+    top: 44%;
+    height: 175px; 
+    width: 270px;
+}
+.img3{
+	position: absolute;
+    left: 20%;
+    top: 75%;
+    height: 175px; 
+    width: 270px;
+
+}
+
+.texto{
+	position: absolute;
+    left: 42%;
+    top: 10%;
+    width: 450px;
+    background: rgba(224, 224, 224, 0.85);
+    color: black;
+    padding: 5px;
+    pointer-events: none;
+    cursor: default;
+}
+.texto2{
+	position: absolute;
+    left: 42%;
+    top: 42%;
+    width: 450px;
+    background: rgba(224, 224, 224, 0.85);
+    color: black;
+    padding: 5px;
+    pointer-events: none;
+    cursor: default;
+}
+.texto3{
+	position: absolute;
+    left: 42%;
+    top: 73%;
+    width: 450px;
+    background: rgba(224, 224, 224, 0.85);
+    color: black;
+    padding: 5px;
+    pointer-events: none;
+    cursor: default;
+}

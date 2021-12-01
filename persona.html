@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/formularios.css">
+</head>
+<body>
+  <div class="logo"><img src="img/logo.png"></div>
+<div class="login-page">
+
+  
+<!--FORMULARIO DE REGISTRO PERSONA -->
+    <form class="register-form" method="POST" action="php/registrar.php">
+      <h1>REGISTRO DE PERSONA</h1>
+      <input type="text" placeholder="Nombre" name="nombre" required />
+      <input type="text" placeholder="Apellido" name="apellido" required/>
+      <input type="text" placeholder="Correo_electronico" name="correo" required/>
+      <input type="password" placeholder="Contraseña" name="Pass" required/>
+       <input type="password" placeholder="Confirmar_contraseña" name="Pass2" required/>
+      <select name="Genero" required>
+        <option value="0">--Seleccione Genero--</option>
+        <option value="1">M</option>
+        <option value="2">F</option>
+      </select>
+      <button>Crear</button>
+      <p class="message">Ya estas registrado? <a href="index.html">Inicia sesion</a></p>
+    </form>
+    <!--FIN FORMULARIO REGISTRO PERSONA -->
+
+
+</div>
+ <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  
+</body>
+</html>
+

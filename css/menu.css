@@ -1,0 +1,23 @@
+.menu{
+	background:rgba(0, 0, 0, 0.85);
+	height: 420px;
+	width: 200px;
+  z-index: 100;
+}
+button{
+ width: 100%;	
+  background: rgba(255, 255, 255, 0.85);
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+button a{
+	text-decoration: none;
+	color: black;
+}
+button:hover,button:active, button:focus {
+	  background: rgba(147, 147, 147, 0.85);
+}
